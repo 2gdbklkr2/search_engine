@@ -1,0 +1,143 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/cave2.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	image-rendering: optimizeQuality;
+  	background-color: #ccc;
+}
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: #bf2e1f;
+}
+header #header-icons {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	height: 50px;
+	width: 80px;
+	margin: 0px 0px 0px 20px;
+	background-color: transparent;
+}
+header #logo {
+	position: relative;
+	top: 1px;
+	height: 70px;
+	width: 100px;
+	background-color: transparent;
+	padding: 0px;
+}
+#logo img {
+	width: 100%;
+	height: 100%;
+}
+#header-icons img {
+position: relative;
+top: 10px;
+left: 0px;
+height: 30px;
+width: 30px;
+cursor: pointer;
+}
+.mainTable {
+	display:inline-block;
+	top: 30%;
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-color: transparent;
+}
+
+}
+
+.mainTable h1 {
+	position: relative;
+	top: 10%;
+	font-size: 200%;
+	color: #393939;
+	font-style: normal;
+	margin: 1%;
+}
+.mainTable #search input[type="search"] {
+position: absolute;
+top: 40%;
+left: 27%;
+background: no-repeat 10px 10px #bf5f55;
+outline: none;
+border: none;
+font: Arial,Helvetica,Sans-serif;
+font-size: 18px;
+font-weight: normal;
+color: #fff;
+width: 40.5%;
+height: 15%;
+padding: 6px 15px 6px 35px;
+text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+-webkit-transition: all 0.7s ease 0s;
+-moz-transition: all 0.7s ease 0s;
+-o-transition: all 0.7s ease 0s;
+transition: all 0.7s ease 0s;
+}
+.mainTable #search input[type="search"]:focus {
+position: absolute;
+top: 40%;
+left: 27%;
+background: url(../img/search_d.png) no-repeat 10px 10px #fcfcfc;
+color: #6a6f75;
+outline: none;
+border: none;
+width: 40.5%;
+height: 15%;
+padding: 6px 15px 6px 35px;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.mainTable button {
+	position:absolute;
+	left: 67.7%;
+	top: 40%;
+	border: none;
+    width: 7%;
+    height: 15%;
+    line-height: 40px;
+    margin-bottom: 0px;
+    font-size: 100%;
+    font-weight: bold;
+    cursor:pointer;
+    padding: 10px 0px 0px 0px;
+    text-align: top;
+    color:#fff;
+    background-color:#bf4033;
+    /*background: -moz-linear-gradient(top,  #bf4033 0%, #bf4033 100%);
+	background: -webkit-linear-gradient(top,  #bf4033 0%,#bf4033 100%);
+	background: linear-gradient(to bottom,  #bf4033 0%,#bf4033 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf4033', endColorstr='#bf4033',GradientType=0 )*/;
+}
+
+#feedback-buttons {
+	position:absolute;
+	top:60%;
+	height: 100px;
+	width: 100%;
+	background-color:transparent;
+}
+#feedback-buttons button {
+	height: 25px;
+	width: 200px;
+	border: none;
+	border-radius: 6px;
+}
+label{
+	color:white;
+}
