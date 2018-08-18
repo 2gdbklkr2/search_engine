@@ -4,14 +4,14 @@
   <head>
 
     <title>Frisk</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 
   </head>
 
   <body>
     <header>
-      <center><div id="logo"><img src="img/final-prod.png"></div></center>
 
       <div id="header-icons">
         <img src="img/profile-icon.jpeg" style="border-radius:50%;">
@@ -27,7 +27,7 @@
           <form action="search" method="GET" id="search">
       <center><input type="search" name="q" placeholder="Search..." id="searchbar" /></center>
 
-           <button style="display:none;" id="click-search">Find</button>
+
           </form>
           <center><button id="search-button"><img src="img/search_w.png"></button></center>
 
@@ -35,11 +35,21 @@
 
     </div>
     <div id="feedback-buttons">
-      <center><button id="button-a" style="margin:5px;">Image</button></center>
-      <center><label style="margin:5px;">Find Images
-      </label></center>
-      <center><button id="button-b" style="margin:5px;">Video</button></center>
-      <center><label style="margin:5px;">Find Videos</label></center>
+
+      <center><table>
+        <tr>
+            <td><button id="button-a" style="margin:5px;">Images</button></td>
+            <td><button id="button-b" style="margin:5px;">Video</button></td>
+
+        </tr>
+
+        <tr>
+
+          <td><center><label style="margin:5px;">Find Images</label></center></td>
+          <td><center><label style="margin:5px;">Find Videos</label></center></td>
+        </tr>
+
+      </table></center>
     </div>
 
 
