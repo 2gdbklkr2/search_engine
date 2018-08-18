@@ -1,4 +1,3 @@
-
 body {
 	margin: 0px;
 	padding: 0px;
@@ -6,7 +5,8 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	image-rendering: optimizeQuality;
+	overflow-x: none;
+	overflow-y: auto;
 }
 header {
 	position: fixed;
@@ -35,13 +35,13 @@ width: 25px;
 cursor: pointer;
 }
 .mainTable {
-	top: 100px;
-  width: 100%;
-  height: auto;
-  position: relative;
-  background-color: transparent;
-	overflow: none;
-	padding: 0px 0px 40px 0px;
+top: 100px;
+width: 100%;
+height: auto;
+position: relative;
+background-color: transparent;
+overflow: none;
+padding: 0px 0px 40px 0px;
 }
 
 
